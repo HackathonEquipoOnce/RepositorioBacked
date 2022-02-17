@@ -28,7 +28,6 @@ public class ProductRepositoryFake implements ProductRepository{
 
     @Override
     public Product getById(Integer id) {
-       // Seller seller1 = new Seller(1,"p","p@p.com");
        return new Product(222,"phoneById", "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p50-pro/size/p50-pro-black.png", "xxxx", 15 );
     }
 
